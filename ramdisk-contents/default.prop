@@ -1,0 +1,23 @@
+#
+# ADDITIONAL_DEFAULT_PROPERTIES
+#
+persist.sys.usb.config=mtp,adb
+drm.service.enabled=true
+ro.opengles.version=131072
+debug.anr.proc.dep.0=com.sonyericsson.music,/system/bin/mediaserver
+debug.anr.proc.dep.1=com.sonyericsson.gallery,/system/bin/mediaserver
+debug.anr.proc.dep.2=android.process.media,/system/bin/mediaserver
+debug.anr.proc.dep.3=com.sonyericsson.camera,/system/bin/mediaserver
+debug.anr.proc.dep.4=com.android.browser,/system/bin/mediaserver
+debug.anr.proc.dep.5=com.sonyericsson.youku,/system/bin/mediaserver
+ro.secure=0
+ro.allow.mock.location=0
+ro.debuggable=1
+persist.sys.semc.crashlevel=1
+#
+# VERSION_PROPERTIES
+#
+ro.semc.version.sw=1252-0023
+ro.semc.version.sw_revision=6.2.B.0.68
+ro.semc.version.sw_variant=GENERIC
+ro.semc.version.sw_type=userdebug
